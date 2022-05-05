@@ -1,0 +1,25 @@
+{
+  "name": "voicemail-api",
+  "version": "1.0.0",
+  "description": "This is the API for an app that transcribes voicemails. This module is for practicing Test Driven Development (TDD) using the tools below to create unit and integration tests, as well as, setting up CI/CD pipelines and workflows. ## Tools * Node.js & Express.js * PostgreSQL * DigitalOcean",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbeedle19/voicemail-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbeedle19/voicemail-api/issues"
+  },
+  "homepage": "https://github.com/jbeedle19/voicemail-api#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^13.0.2"
+  }
+}
